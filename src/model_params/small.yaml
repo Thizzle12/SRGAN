@@ -1,0 +1,10 @@
+batch_size: 32
+epochs: 100
+lr: 0.0001
+dropout: 0.2
+
+generator:
+  scale_factor: 2
+
+discriminator:
+  layers: [128, 128, 256, 256, 512, 512]
